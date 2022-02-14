@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTest DBkadai2", "AutoTest DBkadai2.csproj", "{89F63425-8AB3-45AE-A434-3872CBA38124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTest DBkadai2Tests", "..\AutoTest DBkadai2Tests\AutoTest DBkadai2Tests.csproj", "{C31CA5F1-CB4A-4475-944C-7789C6415E82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89F63425-8AB3-45AE-A434-3872CBA38124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F63425-8AB3-45AE-A434-3872CBA38124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F63425-8AB3-45AE-A434-3872CBA38124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F63425-8AB3-45AE-A434-3872CBA38124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31CA5F1-CB4A-4475-944C-7789C6415E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31CA5F1-CB4A-4475-944C-7789C6415E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31CA5F1-CB4A-4475-944C-7789C6415E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31CA5F1-CB4A-4475-944C-7789C6415E82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {508F6E7D-2C52-42B6-B7EF-B939E9CEE536}
+	EndGlobalSection
+EndGlobal
