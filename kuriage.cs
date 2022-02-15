@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AutoTest_DBkadai2
 {
-    public class kuriage
+    public class Kuriage
     {
         public static int Kuriage10(int j)
         {
