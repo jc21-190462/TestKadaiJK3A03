@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace AutoTest_DBkadai2
 {
-    public class Kuriage
+    public class kuriage
     {
-        public static int Kuriage10(int j)
+        public static int kuriage10(int i)
         {
-            if (j == 0)
+            if (i == 0)
             {
                 return 0;
-            }else if (j >= 0){
-                double i = j;
-                j = Convert.ToInt32(Math.Ceiling(i / 10) * 10);
+            }else if (i >= 0){
+                double j = i;
+                i = Convert.ToInt32(Math.Ceiling(j / 10) * 10);
             }
             else
             {
-                double i = j;
-                j = Convert.ToInt32(Math.Floor(i / 10) * 10);
+                double j = i;
+                i = Convert.ToInt32(Math.Floor(j / 10) * 10);
             }
             
-            return j;
+            return i;
         }
     }
 }
