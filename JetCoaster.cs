@@ -8,59 +8,47 @@ namespace AutoTest_DBkadai2
 {
     public class JetCoaster
     {
-        public static int ride
-            (int k,int[] g,int r)
+        static int i = 0;
+
+
+
+        public static int ride(int k, int[] g, int r)
         {
+            i = 0;
+            int j = 0;
+
+            for (int s = 1; s <= r; s++)
             {
-                int n = 0;
-                int s = k;
-
-
-
-                for (int j = 0; ; j += 1)
-                {
-                    if (r == 0)
-                    {
-                        break;
-                    }
-
-
-
-                    if (j > g.Length - 1)
-                    {
-                        j = 0;
-                    }
-
-
-
-                    Console.WriteLine("g" + g[j]);
-                    if (g[j] <= s)
-                    {
-                        n += g[j];
-                        s -= g[j];
-                    }
-
-
-
-                    else
-                    {
-                        s = k;
-                        r -= 1;
-
-
-
-                        if (j <= g.Length - 1)
-                        {
-                            j -= 1;
-                        }
-                        else
-                        {
-                            j = g.Length - 1;
-                        }
-                    }
-                }
-                return n;
+                j += ride2(k, g);
             }
+            return j;
+        }
+
+        public static int ride2(int k, int[] g)
+        {
+            int t = 0;
+
+            Boolean flg = true;
+            while (flg)
+            {
+                Console.Write(i);
+                if (t + g[i] > k)
+                {
+                    flg = false;
+
+                }
+                else
+                {
+                    t += g[i];
+                    if (g.Length == 1)
+                    {
+                        flg = false;
+                    }
+                    i = (i + 1) % g.Length;
+                }
+            }
+            return t;
+
         }
     }
 }
